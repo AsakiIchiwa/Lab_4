@@ -1,0 +1,90 @@
+/**
+ * variables.css
+ * CSS Custom Properties for RPG Theme
+ */
+
+:root {
+  /* Color Palette - Dark Fantasy */
+  --color-bg-dark: #0a0a12;
+  --color-bg-medium: #12121f;
+  --color-bg-light: #1a1a2e;
+  
+  --color-primary: #ffd700;
+  --color-primary-dark: #b8960f;
+  --color-primary-glow: rgba(255, 215, 0, 0.3);
+  
+  --color-secondary: #8b5cf6;
+  --color-secondary-dark: #6d28d9;
+  
+  --color-accent: #ef4444;
+  --color-accent-glow: rgba(239, 68, 68, 0.3);
+  
+  --color-text: #e8e6e3;
+  --color-text-muted: #9ca3af;
+  --color-text-dark: #1f2937;
+  
+  /* Rarity Colors */
+  --color-legendary: #ff8c00;
+  --color-epic: #a855f7;
+  --color-rare: #3b82f6;
+  --color-common: #6b7280;
+  
+  /* Frame Colors */
+  --color-frame-gold: #c9a227;
+  --color-frame-bronze: #cd7f32;
+  --color-frame-dark: #2d2d44;
+  
+  /* Gradients */
+  --gradient-gold: linear-gradient(135deg, #ffd700 0%, #ffed4a 50%, #c9a227 100%);
+  --gradient-dark: linear-gradient(180deg, #1a1a2e 0%, #0a0a12 100%);
+  --gradient-legendary: linear-gradient(135deg, #ff8c00 0%, #ffd700 100%);
+  --gradient-epic: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+  --gradient-rare: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 20px var(--color-primary-glow);
+  --shadow-glow-purple: 0 0 20px rgba(139, 92, 246, 0.4);
+  
+  /* Typography */
+  --font-display: 'Cinzel', 'Times New Roman', serif;
+  --font-body: 'Crimson Text', Georgia, serif;
+  --font-fantasy: 'MedievalSharp', cursive;
+  
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+  
+  /* Z-Index Layers */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-modal: 200;
+  --z-tooltip: 300;
+  --z-cursor: 1000;
+}
+
+/* Light theme overrides */
+[data-theme="light"] {
+  --color-bg-dark: #f0e6d3;
+  --color-bg-medium: #e8dcc8;
+  --color-bg-light: #faf6ed;
+  --color-text: #2d2a24;
+  --color-text-muted: #5c564a;
+}
